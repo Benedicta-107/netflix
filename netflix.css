@@ -1,0 +1,252 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1.title {
+    color: red;
+    display: block;
+    position: relative;
+    height: 450%;
+    margin-right: auto;
+    margin-left: 5px;
+    text-transform: uppercase;
+    background-color: transparent;
+    transition: background color .5s;
+    font-size: 30px;
+    text-align: left;
+}
+button {
+    display: block;
+    position: relative;
+    border: 100px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    height: 10%;
+}
+.wrapper1 {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/5aecc44d-2a1f-4313-8399-98df20908b64/fe0d3631-4584-47e4-9cd7-ed68ba375830/NG-en-20221114-popsignuptwoweeks-perspective_alpha_website_medium.jpg");;
+    bottom: 0;
+    left: 0;
+    overflow: visible;
+    position: absolute;
+    right: 0;
+    top: -1px;
+    z-index: 0;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+h1 {
+    color: white;
+    margin: 0 auto;
+    max-width: 940px;
+    min-width: 550px ;
+    font-size: 50px;
+    display: block;
+    text-align: center;
+}
+h2 {
+    color: white;
+    margin: 16px auto;
+    max-width: 640px;
+    min-width: 550px ;
+    font-size: 26px;
+    display: block;
+    text-align: center;
+}
+h3 {
+    color: white;
+    margin: 15px auto;
+    max-width: 540px;
+    min-width: 550px ;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+}
+.form_first {
+    display: flex;
+    flex-direction: column;
+}
+.email {
+    /*background-color: white;*/
+    text-align: center;
+    color: white;
+    
+}
+.email label {
+    display: block;
+    margin: auto;
+    width: 800px;
+    padding: 5px;
+    border: 100px;
+    padding-inline-start: 40px;
+  }
+  
+.get {
+    background-color: red;
+    border: 2px;
+    width: 100px;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    text-align: center;
+    padding: 1px;
+    flex: auto;
+
+}
+
+
+.wrapper2 {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    flex: 33.33%;
+    padding: 5px;
+    flex-wrap: nowrap;
+}
+.text {
+    color: white;
+    font-size: 50px;
+    width: 600px;
+    margin-left: 40px;
+    margin-top: 70px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    line-height: 1.1;
+
+   /* text-align: left;
+    padding-left: 25px;
+    height: 450%;
+    margin-right: auto;
+    margin-left: 5px;
+    margin-top: 100px;
+    margin-bottom: 100px;*/
+    
+}
+.image {
+    position: relative;
+    padding-left: 50px;
+    justify-content: space-around;
+
+    /*box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    border: 0;
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 100px;
+    top: auto;
+    z-index: 2;*/
+}
+.tv-img {
+    width: 90%;
+    position: relative;
+    top: 0;
+    left: 0;
+
+    /*height: 10%;
+    left: 5%;
+    max-height: 54%;
+    max-width: 73%;
+    position: absolute;
+    top: 46%;
+    transform: translate(-50%,-50%);
+    width: 10%;*/
+}
+video {
+    position: absolute;
+    top: 76px;
+    right: 120px;
+    z-index: 1;
+    height: 70%;
+    width: 80%;
+}
+
+.wrapper-text {
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 8px;
+    margin: 0 0 0 6.4;
+    background-color: black;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 1;
+    margin-block-start: 10.72px;
+    margin-block-end: 10.72px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+    justify-content: flex-start;
+}
+wrapper-text h2 {
+    width: 100%;
+  position: relative;
+  left: 0;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: black solid 1px;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 12px 0 4px;
+    display: block;
+    text-align: center;
+    padding: 50px 5%;
+
+    /*
+    justify-content: left;
+    position: relative;
+    z-index: 2;
+    padding-left: 20%;
+    display: inline;*/
+}
+.wrapper3-img {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    z-index: -2;
+}
+.strange-thing {
+    width: 500px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+.boxshot {
+    display: flex;
+    background-color: black;
+    position: absolute;
+    border: 2px solid rgb(84, 84, 84);
+    border-radius: 10px;
+    padding: 10px;
+    bottom: 30px;
+    left: 90px;
+    width: 60%;
+}
+.boxshot-img {
+    width: 50px;
+}
+.boxshot span {
+    color: rgb(0, 113, 235);
+    font-weight: normal;
+}
+.gif {
+    width: 48px;
+    padding-left: 30px;
+}
+p {
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 30px;
+}
