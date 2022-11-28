@@ -85,18 +85,18 @@ div.splash h2 {
 div.splash h3 {
     font-size: 1.2rem;
 }
-div.splash form {
+div.cta form {
     position: relative;
     display: grid;
     margin-top: 20px;
     grid-template-columns: 1fr max-content;
 }
-div.splash input {
+div.cta input {
     padding: 15px 10px;
     font-size: 1.2rem;
     width: 100%;
 }
-div.splash input ~ span {
+div.cta input ~ span {
     position: absolute;
     left: 12px;
     top: 19px;
@@ -105,15 +105,15 @@ div.splash input ~ span {
     transition: all 0.15s ease;
     pointer-events: none;
 }
-div.splash input:focus {
+div.cta input:focus {
     padding-top: 19px;
     padding-bottom: 11px;
 }
-div.splash input:focus ~ span {
+div.cta input:focus ~ span {
     top: 4px;
     font-size: .8rem;
 }
-div.splash button {
+div.cta button {
     font-size: 1.625rem;
     padding: 12px 26px;
     background-color: #e50914;
@@ -283,14 +283,55 @@ div.question div.content{
     padding-top: 60px;
 }
 .faq{
-    margin-bottom: 70px;
+    margin-bottom: 1px;
 }
-summary svg {
-    width: 20px;
-    height: 20px;
-    right: 10px;
-    left: 30px;
-    top: 10px;
-    position: absolute;
-    z-index: 2;
+div.faq h3 {
+    font-weight: normal;
+    text-align: center;
+    margin: 40px 0 20px;
+    
+}
+div.faq form {
+    max-width: 635px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    /*max-height: 600px;*/
+
+}
+.wrap {
+    background-color: #000;
+    color: #303030;
+    margin: 0 auto;
+    gap: 100px;
+    margin-top: 0px;
+    padding: 50px;
+}
+.pg a {
+    color: #303030;
+    text-decoration: none;
+    position: relative;
+
+}
+ul {
+    color: #303030;
+}
+li {
+    list-style: none;
+    color: #303030;
+    
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    padding-left: 200px;
+    padding-bottom: 40px;
+    position: relative;
+    margin: auto;
+    gap: 1px;
+}
+.list a {
+    color: #303030;
+    text-decoration: none;
+
 }
